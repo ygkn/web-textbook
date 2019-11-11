@@ -4,3 +4,34 @@ html,
 body {
   margin: 0;
 }
+
+.header {
+  position: relative;
+  height: 720px;
+  background-image: url(../img/bg.svg);
+  background-position: center;
+  background-size: cover;
+}
+
+.header--title,
+.header--catch {
+  font-weight: 100;
+  position: absolute;
+  margin: 0;
+  font-family: "M PLUS 1p", sans-serif;
+  color: #fff;
+  width: 100%;
+  text-align: center;
+}
+
+.header--title {
+  font-size: 3rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.header--catch {
+  font-size: 1.5rem;
+  top: 50%;
+  transform: translateY(2em);
+}
