@@ -35,3 +35,23 @@ body {
   top: 50%;
   transform: translateY(2em);
 }
+
+.navigation {
+  display: contents;
+}
+
+.navigation--list {
+  width: 100%;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  justify-content: flex-end;
+}
+
+.navigation--link {
+  display: inline-block;
+  color: #fff;
+  padding: 0.5em;
+  margin: 0.5em;
+}
