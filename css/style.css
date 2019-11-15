@@ -58,9 +58,9 @@ body {
 
 .section {
   max-width: 900px;
-  margin: auto;
+  margin: 1em auto;
   color: #333;
-  margin: 1em;
+  padding: 0 1em;
 }
 
 .section--heading {
