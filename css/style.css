@@ -57,9 +57,10 @@ body {
 }
 
 .section {
-  max-width: 800px;
+  max-width: 900px;
   margin: auto;
   color: #333;
+  margin: 1em;
 }
 
 .section--heading {
