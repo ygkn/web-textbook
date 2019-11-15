@@ -55,3 +55,17 @@ body {
   padding: 0.5em;
   margin: 0.5em;
 }
+
+.section {
+  max-width: 800px;
+  margin: auto;
+  color: #333;
+}
+
+.section--heading {
+  text-align: center;
+}
+
+.section--paragraph {
+  margin: 0;
+}
