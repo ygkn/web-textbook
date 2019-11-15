@@ -70,3 +70,26 @@ body {
 .section--paragraph {
   margin: 0;
 }
+
+.icons {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+  margin: 1em 0;
+}
+
+.icons--item {
+  margin: 2em;
+}
+
+.icons--icon {
+  font-size: 80px;
+  color: #889;
+}
+
+.icons--caption {
+  text-align: center;
+  margin: 1em 0;
+}
